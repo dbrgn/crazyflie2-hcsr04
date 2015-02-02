@@ -1,9 +1,11 @@
-PCBNEW-LibModule-V1  Mon 02 Feb 2015 21:42:33 CET
+PCBNEW-LibModule-V1  Mon 02 Feb 2015 22:35:32 CET
 # encoding utf-8
 Units mm
 $INDEX
 bitcraze:EXP_ORIENTATION
 bitcraze:EXP_ORIENTATION_B_MASK
+connectors:BF090-10-X-B2-LEFT-NOPADS
+connectors:BF090-10-X-B2-RIGHT-NOPADS
 $EndINDEX
 $MODULE bitcraze:EXP_ORIENTATION
 Po 0 0 0 15 54CFDFA6 00000000 ~~
@@ -49,4 +51,194 @@ DS 0.7 0 1.8 0 0.15 21
 DC 0 0 0.7 0.025 0.15 21
 DC 0 0 0.075 0.025 0.15 21
 $EndMODULE bitcraze:EXP_ORIENTATION_B_MASK
+$MODULE connectors:BF090-10-X-B2-LEFT-NOPADS
+Po 0 0 0 15 54CFEC55 00000000 ~~
+Li connectors:BF090-10-X-B2-LEFT-NOPADS
+Sc 0
+AR /533E81FD
+Op 0 0 0
+T0 0 0.1 0.5 0.5 0 0.1 N V 21 N "P1"
+T1 0 -3.4 0.5 0.5 0 0.1 N V 21 N "CF_EXP_LEFT"
+T2 9 -1.9 0.8 0.8 0 0.2 N V 21 N "10"
+T2 -9 2 0.8 0.8 0 0.2 N V 21 N "1"
+DS 7.9 -1.2 10.3 -1.2 0.2 21
+DS 10.3 -1.2 10.3 1.2 0.2 21
+DS 10.3 1.2 9.9 1.2 0.2 21
+DS 3.9 -1.2 6.1 -1.2 0.2 21
+DS -0.1 -1.2 2.1 -1.2 0.2 21
+DS 5.9 1.2 8.1 1.2 0.2 21
+DS 1.9 1.2 4.1 1.2 0.2 21
+DS -1.9 1.2 0.1 1.2 0.2 21
+DS -4.1 -1.2 -1.9 -1.2 0.2 21
+DS -6.1 1.2 -3.7 1.2 0.2 21
+DS -8.1 -1.2 -5.9 -1.2 0.2 21
+DS -10.3 -1.2 -9.9 -1.2 0.2 21
+DS -10.3 -1.2 -10.3 1.2 0.2 21
+DS -10.3 1.2 -7.9 1.2 0.2 21
+$PAD
+Sh "10" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 4 "GND"
+Po 9 0
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7 0
+$EndPAD
+$PAD
+Sh "1" R 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9 0
+$EndPAD
+$PAD
+Sh "8" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "9" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 3 "/IO_4"
+Po 7 0
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 0
+$EndPAD
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3 0
+$EndPAD
+$PAD
+Sh "7" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 2 "/IO_2"
+Po 3 0
+$EndPAD
+$PAD
+Sh "6" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 1 "/IO_1"
+Po 1 0
+$EndPAD
+$PAD
+Sh "5" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$EndMODULE connectors:BF090-10-X-B2-LEFT-NOPADS
+$MODULE connectors:BF090-10-X-B2-RIGHT-NOPADS
+Po 0 0 0 15 54CFED97 00000000 ~~
+Li connectors:BF090-10-X-B2-RIGHT-NOPADS
+Sc 0
+AR /533E838C
+Op 0 0 0
+T0 0 0.1 0.5 0.5 0 0.1 N V 21 N "P2"
+T1 0 -3.4 0.5 0.5 0 0.1 N V 21 N "CF_EXP_RIGHT"
+T2 9 -1.9 0.8 0.8 0 0.2 N V 21 N "10"
+T2 -9 2 0.8 0.8 0 0.2 N V 21 N "1"
+DS 7.9 -1.2 10.3 -1.2 0.2 21
+DS 10.3 -1.2 10.3 1.2 0.2 21
+DS 10.3 1.2 9.9 1.2 0.2 21
+DS 3.9 -1.2 6.1 -1.2 0.2 21
+DS -0.1 -1.2 2.1 -1.2 0.2 21
+DS 5.9 1.2 8.1 1.2 0.2 21
+DS 1.9 1.2 4.1 1.2 0.2 21
+DS -1.9 1.2 0.1 1.2 0.2 21
+DS -4.1 -1.2 -1.9 -1.2 0.2 21
+DS -6.1 1.2 -3.7 1.2 0.2 21
+DS -8.1 -1.2 -5.9 -1.2 0.2 21
+DS -10.3 -1.2 -9.9 -1.2 0.2 21
+DS -10.3 -1.2 -10.3 1.2 0.2 21
+DS -10.3 1.2 -7.9 1.2 0.2 21
+$PAD
+Sh "10" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9 0
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7 0
+$EndPAD
+$PAD
+Sh "1" R 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9 0
+$EndPAD
+$PAD
+Sh "8" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 1 "/OW"
+Po 5 0
+$EndPAD
+$PAD
+Sh "9" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 2 "/VCOM"
+Po 7 0
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 0
+$EndPAD
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3 0
+$EndPAD
+$PAD
+Sh "7" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3 0
+$EndPAD
+$PAD
+Sh "6" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$PAD
+Sh "5" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$EndMODULE connectors:BF090-10-X-B2-RIGHT-NOPADS
 $EndLIBRARY
