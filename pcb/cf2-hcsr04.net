@@ -16,7 +16,7 @@
       (tstamp 533E838C))
     (comp (ref U2)
       (value REG71050)
-      (libsource (lib danilo) (part REG71050))
+      (libsource (lib cf2-hcsr04) (part REG71050))
       (sheetpath (names /) (tstamps /))
       (tstamp 54C634D2))
     (comp (ref C3)
@@ -31,7 +31,7 @@
       (tstamp 54C635D9))
     (comp (ref U1)
       (value DS28E05)
-      (libsource (lib danilo) (part DS28E05))
+      (libsource (lib cf2-hcsr04) (part DS28E05))
       (sheetpath (names /) (tstamps /))
       (tstamp 54C63C77))
     (comp (ref C2)
@@ -41,7 +41,7 @@
       (tstamp 54C640FE))
     (comp (ref U3)
       (value HC-SR04)
-      (libsource (lib danilo) (part HC-SR04))
+      (libsource (lib cf2-hcsr04) (part HC-SR04))
       (sheetpath (names /) (tstamps /))
       (tstamp 54C64553)))
   (libparts
@@ -59,7 +59,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib danilo) (part DS28E05)
+    (libpart (lib cf2-hcsr04) (part DS28E05)
       (fields
         (field (name Reference) U)
         (field (name Value) DS28E05)
@@ -68,7 +68,7 @@
       (pins
         (pin (num 1) (name IO) (type BiDi))
         (pin (num 3) (name GND) (type power_in))))
-    (libpart (lib danilo) (part HC-SR04)
+    (libpart (lib cf2-hcsr04) (part HC-SR04)
       (fields
         (field (name Reference) U)
         (field (name Value) HC-SR04)
@@ -79,7 +79,7 @@
         (pin (num 2) (name Trig) (type input))
         (pin (num 3) (name Echo) (type output))
         (pin (num 4) (name GND) (type power_in))))
-    (libpart (lib danilo) (part REG71050)
+    (libpart (lib cf2-hcsr04) (part REG71050)
       (fields
         (field (name Reference) U)
         (field (name Value) REG71050)
@@ -129,8 +129,8 @@
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical danilo)
-      (uri ../../../kicad/danilo.lib))
+    (library (logical cf2-hcsr04)
+      (uri cf2-hcsr04.lib))
     (library (logical cf2-hcsr04-cache)
       (uri /home/danilo/Projects/crazyflie2-hcsr04/pcb/cf2-hcsr04-cache.lib)))
   (nets

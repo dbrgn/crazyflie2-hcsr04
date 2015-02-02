@@ -29,7 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:danilo
+LIBS:cf2-hcsr04
 LIBS:cf2-hcsr04-cache
 EELAYER 27 0
 EELAYER END
