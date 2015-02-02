@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Mon 02 Feb 2015 22:35:40 CET
+Cmp-Mod V01 Created by PcbNew date = Mon 02 Feb 2015 22:57:33 CET
 
 BeginCmp
 TimeStamp = /54C635D9;
@@ -53,7 +53,7 @@ BeginCmp
 TimeStamp = /54C64553;
 Reference = U3;
 ValeurCmp = HC-SR04;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = HC-SR04;
 EndCmp
 
 EndListe
