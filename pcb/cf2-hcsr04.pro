@@ -1,4 +1,4 @@
-update=Mon 02 Feb 2015 21:37:28 CET
+update=Die 03 Feb 2015 14:16:25 CET
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -52,10 +52,10 @@ LibName31=cf2-hcsr04
 version=1
 LastNetListRead=cf2-hcsr04.net
 UseCmpFile=1
-PadDrill="    0.000000"
-PadDrillOvalY="    0.000000"
-PadSizeH="    0.701040"
-PadSizeV="    1.000760"
+PadDrill="    0.800000"
+PadDrillOvalY="    0.800000"
+PadSizeH="    1.524000"
+PadSizeV="    1.524000"
 PcbTextSizeV="    1.000000"
 PcbTextSizeH="    1.000000"
 PcbTextThickness="    0.300000"
