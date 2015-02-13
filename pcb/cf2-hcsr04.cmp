@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Mon 02 Feb 2015 22:57:33 CET
+Cmp-Mod V01 Created by PcbNew date = Fri 13 Feb 2015 01:11:36 PM CET
 
 BeginCmp
 TimeStamp = /54C635D9;
@@ -25,14 +25,14 @@ BeginCmp
 TimeStamp = /533E81FD;
 Reference = P1;
 ValeurCmp = CF_EXP_LEFT;
-IdModule  = connectors:BF090-10-X-B2-LEFT-NOPADS;
+IdModule  = connectors:BF090-10-X-B2-NOPADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /533E838C;
 Reference = P2;
 ValeurCmp = CF_EXP_RIGHT;
-IdModule  = connectors:BF090-10-X-B2-RIGHT-NOPADS;
+IdModule  = connectors:BF090-10-X-B2-NOPADS;
 EndCmp
 
 BeginCmp

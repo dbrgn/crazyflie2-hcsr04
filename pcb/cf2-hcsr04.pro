@@ -1,4 +1,4 @@
-update=Die 03 Feb 2015 14:16:25 CET
+update=Fri 13 Feb 2015 01:11:52 PM CET
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -91,5 +91,4 @@ LibName19=sockets
 LibName20=dip_sockets
 LibName21=smd_crystal&oscillator
 LibName22=libcms
-LibName23=arduino_shields
-LibName24=cf2-hcsr04
+LibName23=cf2-hcsr04
