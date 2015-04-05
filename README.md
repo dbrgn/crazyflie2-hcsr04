@@ -14,6 +14,6 @@ This adds support for a cheap ultrasonic sensor (HC-SR04) to the Crazyflie 2.0.
 
 The HC-SR04 expansion board uses the following GPIO ports:
 
-- `IO_1`: HC-SR04 Trigger
-- `IO_2`: HC-SR04 Echo
-- `IO_4`: REG71050 Enable
+- `IO_1 / PB8`: HC-SR04 Trigger
+- `IO_2 / PB5`: HC-SR04 Echo
+- `IO_4 / PC12`: REG71050 Enable
